@@ -1,0 +1,17 @@
+PODS:
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+  - NXOAuth2Client (1.2.5)
+
+DEPENDENCIES:
+  - Kiwi/XCTest
+  - NXOAuth2Client (~> 1.2.2)
+
+SPEC CHECKSUMS:
+  Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
+  NXOAuth2Client: 2ad31d48b28e00663ce4fe21345ccee0cab35e01
+
+COCOAPODS: 0.31.0
