@@ -1,6 +1,6 @@
 platform :ios, '7.0'
 
-pod 'NXOAuth2Client', '~> 1.2.2'
+pod 'TDOAuth', :git => 'git@github.com:danvalencia/TDOAuth.git'
 
 target :ShoparamaTests, :exclusive => true do
     pod 'Kiwi/XCTest'
