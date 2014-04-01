@@ -64,6 +64,7 @@
 		BEF79C0118EA486A001CD47A /* ProductServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductServiceSpec.m; sourceTree = "<group>"; };
 		BEF79C0318EA4BFC001CD47A /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductService.h; path = Services/ProductService.h; sourceTree = "<group>"; };
 		BEF79C0418EA4BFC001CD47A /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductService.m; path = Services/ProductService.m; sourceTree = "<group>"; };
+		BEF79C0918EA56E6001CD47A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		EE0D7C5640424153B915546D /* libPods-ShoparamaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShoparamaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -96,6 +97,7 @@
 		BE09B06F18EA3A9700459A18 = {
 			isa = PBXGroup;
 			children = (
+				BEF79C0918EA56E6001CD47A /* Constants.h */,
 				BE09B08118EA3A9700459A18 /* Shoparama */,
 				BE09B0A318EA3A9700459A18 /* ShoparamaTests */,
 				BE09B07A18EA3A9700459A18 /* Frameworks */,
@@ -490,6 +492,8 @@
 				GCC_PREFIX_HEADER = "Shoparama/Shoparama-Prefix.pch";
 				INFOPLIST_FILE = "Shoparama/Shoparama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_SERVICE_KEY = SEM3D7C18E2516367EEA22684BC5BF9CFECF;
+				PRODUCT_SERVICE_SECRET = ODgxZTY3ODhlYTM5MjU1MWI4YjA0MTdjYmI4NzZhZGQ;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -504,6 +508,8 @@
 				GCC_PREFIX_HEADER = "Shoparama/Shoparama-Prefix.pch";
 				INFOPLIST_FILE = "Shoparama/Shoparama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_SERVICE_KEY = SEM3D7C18E2516367EEA22684BC5BF9CFECF;
+				PRODUCT_SERVICE_SECRET = ODgxZTY3ODhlYTM5MjU1MWI4YjA0MTdjYmI4NzZhZGQ;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

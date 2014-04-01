@@ -46,6 +46,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>Product Service Key</key>
+	<string>${PRODUCT_SERVICE_KEY}</string>
+	<key>Product Service Secret</key>
+	<string>${PRODUCT_SERVICE_SECRET}</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

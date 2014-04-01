@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Constants.h"
 
 @implementation AppDelegate
 
@@ -16,6 +17,10 @@
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
+    NSString* productServiceKey = [[[NSBundle mainBundle] infoDictionary] valueForKey:PRODUCT_SERVICE_KEY];
+    NSString* productServiceSecret = [[[NSBundle mainBundle] infoDictionary] valueForKey:PRODUCT_SERVICE_SECRET];
+    
+    NSLog(@"Key: %@; Secret: %@", productServiceKey, productServiceSecret);
     return YES;
 }
 							
