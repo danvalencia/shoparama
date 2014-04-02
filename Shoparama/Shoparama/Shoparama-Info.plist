@@ -50,6 +50,10 @@
 	<string>${PRODUCT_SERVICE_KEY}</string>
 	<key>Product Service Secret</key>
 	<string>${PRODUCT_SERVICE_SECRET}</string>
+	<key>Product Service Host</key>
+	<string>${PRODUCT_SERVICE_HOST}</string>
+	<key>Product Service Scheme</key>
+	<string>${PRODUCT_SERVICE_SCHEME}</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

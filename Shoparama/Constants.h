@@ -13,5 +13,7 @@
 
 #endif
 
+#define PRODUCT_SERVICE_HOST    @"Product Service Host"
+#define PRODUCT_SERVICE_SCHEME  @"Product Service Scheme"
 #define PRODUCT_SERVICE_KEY     @"Product Service Key"
 #define PRODUCT_SERVICE_SECRET  @"Product Service Secret"

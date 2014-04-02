@@ -23,6 +23,8 @@
 		BE09B09F18EA3A9700459A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE09B07B18EA3A9700459A18 /* Foundation.framework */; };
 		BE09B0A018EA3A9700459A18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE09B07F18EA3A9700459A18 /* UIKit.framework */; };
 		BE09B0A818EA3A9700459A18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE09B0A618EA3A9700459A18 /* InfoPlist.strings */; };
+		BE2C9E0B18ECABC10037EE64 /* MainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C9E0A18ECABC10037EE64 /* MainAssembly.m */; };
+		BE2C9E0C18ECABC10037EE64 /* MainAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C9E0A18ECABC10037EE64 /* MainAssembly.m */; };
 		BEF79C0218EA486A001CD47A /* ProductServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF79C0118EA486A001CD47A /* ProductServiceSpec.m */; };
 		BEF79C0518EA4BFC001CD47A /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF79C0418EA4BFC001CD47A /* ProductService.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,8 @@
 		BE09B09D18EA3A9700459A18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BE09B0A518EA3A9700459A18 /* ShoparamaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoparamaTests-Info.plist"; sourceTree = "<group>"; };
 		BE09B0A718EA3A9700459A18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE2C9E0918ECABC10037EE64 /* MainAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainAssembly.h; path = Assembly/MainAssembly.h; sourceTree = "<group>"; };
+		BE2C9E0A18ECABC10037EE64 /* MainAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainAssembly.m; path = Assembly/MainAssembly.m; sourceTree = "<group>"; };
 		BEF79C0118EA486A001CD47A /* ProductServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductServiceSpec.m; sourceTree = "<group>"; };
 		BEF79C0318EA4BFC001CD47A /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductService.h; path = Services/ProductService.h; sourceTree = "<group>"; };
 		BEF79C0418EA4BFC001CD47A /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductService.m; path = Services/ProductService.m; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 		BE09B08118EA3A9700459A18 /* Shoparama */ = {
 			isa = PBXGroup;
 			children = (
+				BE2C9E0818ECAB8C0037EE64 /* Assembly */,
 				BEF79C0618EA4C03001CD47A /* Services */,
 				BE09B08A18EA3A9700459A18 /* AppDelegate.h */,
 				BE09B08B18EA3A9700459A18 /* AppDelegate.m */,
@@ -160,7 +165,7 @@
 		BE09B0A318EA3A9700459A18 /* ShoparamaTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEF79C0718EA4C0F001CD47A /* Services */,
+				BE2C9E1018ECCE560037EE64 /* IntegrationTests */,
 				BE09B0A418EA3A9700459A18 /* Supporting Files */,
 			);
 			path = ShoparamaTests;
@@ -173,6 +178,23 @@
 				BE09B0A618EA3A9700459A18 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2C9E0818ECAB8C0037EE64 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				BE2C9E0918ECABC10037EE64 /* MainAssembly.h */,
+				BE2C9E0A18ECABC10037EE64 /* MainAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		BE2C9E1018ECCE560037EE64 /* IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEF79C0718EA4C0F001CD47A /* Services */,
+			);
+			name = IntegrationTests;
 			sourceTree = "<group>";
 		};
 		BEF79C0618EA4C03001CD47A /* Services */ = {
@@ -356,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2C9E0B18ECABC10037EE64 /* MainAssembly.m in Sources */,
 				BE09B08C18EA3A9700459A18 /* AppDelegate.m in Sources */,
 				BEF79C0518EA4BFC001CD47A /* ProductService.m in Sources */,
 				BE09B09218EA3A9700459A18 /* MasterViewController.m in Sources */,
@@ -368,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2C9E0C18ECABC10037EE64 /* MainAssembly.m in Sources */,
 				BEF79C0218EA486A001CD47A /* ProductServiceSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,7 +516,9 @@
 				GCC_PREFIX_HEADER = "Shoparama/Shoparama-Prefix.pch";
 				INFOPLIST_FILE = "Shoparama/Shoparama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_SERVICE_HOST = api.semantics3.com;
 				PRODUCT_SERVICE_KEY = SEM3D7C18E2516367EEA22684BC5BF9CFECF;
+				PRODUCT_SERVICE_SCHEME = https;
 				PRODUCT_SERVICE_SECRET = ODgxZTY3ODhlYTM5MjU1MWI4YjA0MTdjYmI4NzZhZGQ;
 				WRAPPER_EXTENSION = app;
 			};
@@ -508,7 +534,9 @@
 				GCC_PREFIX_HEADER = "Shoparama/Shoparama-Prefix.pch";
 				INFOPLIST_FILE = "Shoparama/Shoparama-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_SERVICE_HOST = api.semantics3.com;
 				PRODUCT_SERVICE_KEY = SEM3D7C18E2516367EEA22684BC5BF9CFECF;
+				PRODUCT_SERVICE_SCHEME = https;
 				PRODUCT_SERVICE_SECRET = ODgxZTY3ODhlYTM5MjU1MWI4YjA0MTdjYmI4NzZhZGQ;
 				WRAPPER_EXTENSION = app;
 			};

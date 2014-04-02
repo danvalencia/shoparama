@@ -5,10 +5,14 @@ PODS:
     - Kiwi/ARC
     - Kiwi/NonARC
   - TDOAuth (0.0.1)
+  - Typhoon (HEAD based on 1.8.2):
+    - Typhoon/no-arc
+  - Typhoon/no-arc (HEAD based on 1.8.2)
 
 DEPENDENCIES:
   - Kiwi/XCTest
   - TDOAuth (from `git@github.com:danvalencia/TDOAuth.git`)
+  - Typhoon (HEAD)
 
 EXTERNAL SOURCES:
   TDOAuth:
@@ -17,5 +21,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
   TDOAuth: 0c08894bc46f5c06526c4d42abca269fceb3b4df
+  Typhoon: fba1b1978289e4a9f8662ae0e3a5ddbb0538e2be
 
 COCOAPODS: 0.31.0

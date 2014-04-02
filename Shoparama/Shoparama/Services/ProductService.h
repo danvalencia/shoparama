@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ProductService : NSObject
+typedef void(^ProductServiceReceivedBlock)(NSArray* result);
+typedef void(^ProductServiceErrorBlock)(NSError* message);
+
+@interface ProductService : NSObject<NSURLConnectionDelegate>
+
+- (void)fetchSubCategoriesFor:(NSString*)parentCategoryId onSuccess:(ProductServiceReceivedBlock)successBlock onError:(ProductServiceErrorBlock)errorBlock;
 
 @end
