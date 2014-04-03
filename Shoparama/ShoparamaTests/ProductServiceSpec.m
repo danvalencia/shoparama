@@ -20,7 +20,7 @@ describe(@"ProductsApi", ^{
             return [factory componentForType:[ProductService class]];
         });
         
-        it(@"should return a list of all categories", ^{
+        it(@"should return a list of all top level categories", ^{
             NSString* categoryId = @"1";
             __block NSArray* categoriesArray;
             [productService fetchSubCategoriesFor:categoryId onSuccess:^(NSArray* categories){
