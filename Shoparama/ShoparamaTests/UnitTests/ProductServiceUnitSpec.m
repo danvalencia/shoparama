@@ -34,8 +34,6 @@ describe(@"ProductsApi", ^{
             NSString* jsonResponse = @"{\"code\":\"OK\", \"results\":[{\"cat_id\":\"11932\",\"name\":\"Video Games\"}]}";
             
             NSData* jsonData = [jsonResponse dataUsingEncoding:NSUTF8StringEncoding];
-            NSError* e;
-            NSDictionary* jsonObject = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&e];
             void (^completionBlock)(NSURLResponse *response, NSData *data, NSError *connectionError) = spy.argument;
             completionBlock(nil, jsonData, nil);
         });
