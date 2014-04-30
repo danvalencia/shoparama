@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88151C06-B24E-47E0-B70D-900DE7995361</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Shoparama</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D52654E8-7236-40B2-95EC-89997504D513</key>
+		<string>ssh://github.com/pdunnavant/shoparama.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Shoparama.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D52654E8-7236-40B2-95EC-89997504D513</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/pdunnavant/shoparama.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D52654E8-7236-40B2-95EC-89997504D513</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D52654E8-7236-40B2-95EC-89997504D513</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shoparama</string>
+		</dict>
+	</array>
+</dict>
+</plist>
